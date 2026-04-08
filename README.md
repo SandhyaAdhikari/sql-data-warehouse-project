@@ -2,14 +2,14 @@
 Building a modern data warehouse with SQL server, including ETL processes, Data modeling, and analytics.
 # 📊 Data Warehouse & Analytics Project
 
-Welcome to my **Data Warehouse and Analytics Project** 🚀  
+Welcome to my **Data Warehouse and Analytics Project**  
 This project demonstrates the process of building a modern data warehouse and generating insights using SQL.
 
 It is designed as a portfolio project to showcase my skills in **data engineering, data modeling, and analytics**.
 
 ---
 
-## 🏗️ Data Architecture
+##  Data Architecture
 
 This project follows the **Medallion Architecture** approach:
 
@@ -35,7 +35,7 @@ In this project, I:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - SQL Server Express  
 - SQL Server Management Studio (SSMS)  
@@ -45,7 +45,7 @@ In this project, I:
 
 ---
 
-## 🚀 Project Requirements
+##  Project Requirements
 
 ### Data Warehouse Development
 
@@ -72,4 +72,4 @@ Generate insights using SQL queries.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
