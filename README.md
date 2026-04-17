@@ -1,6 +1,6 @@
 # sql-data-warehouse-project
 Building a modern data warehouse with SQL server, including ETL processes, Data modeling, and analytics.
-#  Data Warehouse & Analytics Project
+#  Data Warehouse & Analytics Project ^^
 
 Welcome to my **Data Warehouse and Analytics Project**  
 This project demonstrates the process of building a modern data warehouse and generating insights using SQL.
