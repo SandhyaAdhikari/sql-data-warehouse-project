@@ -2,21 +2,10 @@
 
 A modern data warehouse built with SQL Server — featuring layered ETL pipelines, dimensional data modeling, and business analytics.
 ---
+📌 Overview
+This project demonstrates the end-to-end process of designing and building a production-style data warehouse using SQL Server. It is structured as a portfolio project to showcase skills in data engineering, data modeling, and SQL analytics.
+The warehouse ingests raw data from ERP and CRM source systems (CSV files), processes it through a multi-layer architecture, and surfaces clean, analytics-ready data for business reporting.
 
-##  Data Architecture
-
-This project follows the **Medallion Architecture** approach:
-
-- **Bronze Layer**  
-  Stores raw data directly from source systems (CSV files).
-
-- **Silver Layer**  
-  Cleans, transforms, and standardizes the data.
-
-- **Gold Layer**  
-  Contains business-ready data structured into a **star schema** for reporting and analytics.
-
----
 
 ## 📖 Project Overview
 
