@@ -128,5 +128,5 @@ The Gold layer follows a **star schema** pattern:
 
 Feel free to connect or reach out if you have questions or feedback:
 
-- **GitHub:** [your-username](https://github.com/your-username)
-- **LinkedIn:** [your-linkedin](https://linkedin.com/in/your-profile)
+- **GitHub:** [your-username](https://github.com/SandhyaAdhikari)
+- **LinkedIn:** [your-linkedin]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/sandhyaadhikari/))
