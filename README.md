@@ -7,16 +7,16 @@ This project demonstrates the end-to-end process of designing and building a pro
 The warehouse ingests raw data from ERP and CRM source systems (CSV files), processes it through a multi-layer architecture, and surfaces clean, analytics-ready data for business reporting.
 
 
-## 📖 Project Overview
-
-In this project, I:
-
-- Designed a data warehouse using layered architecture  
-- Built ETL pipelines to process raw data  
-- Created fact and dimension tables  
-- Wrote SQL queries to analyze business data  
-
----
+🏛️ Data Architecture
+This project follows the Medallion Architecture — a three-layer design pattern that progressively refines data quality:
+Source (CSV Files)
+       │
+       ▼
+┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│   🥉 BRONZE  │────▶│   🥈 SILVER  │────▶│   🥇 GOLD    │
+│  Raw Ingest  │     │  Cleansed   │     │  Star Schema │
+└─────────────┘     └─────────────┘     └─────────────┘
+LayerPurposeBronzeStores raw data as-is from source CSV files — no transformations appliedSilverCleanses, standardizes, and deduplicates the raw dataGoldDelivers business-ready fact and dimension tables in a star schema for reporting
 
 ##  Tools & Technologies
 
